@@ -39,6 +39,9 @@ android {
     buildFeatures {
         compose = true
     }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.15"
+    }
 }
 
 dependencies {
@@ -68,7 +71,6 @@ dependencies {
     implementation(libs.ktor.client.core)
     // Ktor client for Android engine
     implementation(libs.ktor.client.okhttp)
-    // (or ktor-client-cio if you prefer, but okhttp is smoother on Android)
 
     // Ktor client JSON support
     implementation(libs.ktor.client.content.negotiation)
@@ -97,4 +99,17 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose)
 
     implementation(libs.pagecurl)
+
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
+
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.kotlin)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.ktor.client.mock)
+    testImplementation(libs.robolectric)
+
+    implementation(libs.androidx.compose.material)
+    implementation(libs.androidx.compose.material.icons.extended)
 }

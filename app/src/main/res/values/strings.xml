@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">BibleWatch</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_stories">Stories</string>
+    <string name="nav_study">Study</string>
+    <string name="nav_bible">Bible</string>
+
+    <!-- Notifications -->
+    <string name="notification_daily_verse_title">Daily Verse</string>
+    <string name="notification_daily_verse_body">Check out today\'s verse!</string>
+    <string name="notification_reminder_title">Study Reminder</string>
+    <string name="notification_reminder_body">Time to study the Bible!</string>
+
+    <!-- Features -->
+    <string name="favorites">Favorites</string>
+    <string name="my_progress">My Progress</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="sync_data">Sync Data</string>
+    <string name="daily_verse">Daily Verse</string>
+
+    <!-- Actions -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- Messages -->
+    <string name="loading">Loading…</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="success_saved">Successfully saved!</string>
+    <string name="network_connected">Network connected - syncing data</string>
+    <string name="network_disconnected">Network disconnected - offline mode</string>
 </resources>
